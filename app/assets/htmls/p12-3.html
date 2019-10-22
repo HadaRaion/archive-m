@@ -1,0 +1,29 @@
+@@include('modules/header.html')
+
+<!-- p12-3 게시판 비밀번호 start -->
+<div class="main board-pw">
+
+<!-- 닫기버튼 start -->
+   <button class="btn-close btn-close-btn-close-black"><i class="xi-close-min" onclick="goBack()"></i></button>
+<!-- 닫기버튼 start -->
+
+   <div class="wrapper">
+      <section>
+         <form>
+            <fieldset>
+               <legend>비밀글입니다. 비밀번호를 입력하세요.</legend>
+               <label for="board-password">비밀번호</label>
+<!-- 비밀번호 입력창 end -->
+               <input id="board-password" type="password" placeholder="비밀번호" required>
+<!-- 비밀번호 입력창 end -->
+               <button class="btn-blue" id="" type="button">확인</button>
+
+            </fieldset>
+         </form>
+      </section>
+
+   </div>
+</div>
+<!-- p12-3 게시판 비밀번호 end -->
+
+@@include('modules/footer.html')

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" viewBox="0 0 16 25">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-1{stroke:#000;stroke-width:4px}
+        </style>
+    </defs>
+    <g id="그룹_500" data-name="그룹 500" transform="translate(-34 -215)">
+        <g id="그룹_449" data-name="그룹 449" transform="translate(-176.5 6.302)">
+            <path id="선_78" d="M0 0h4" class="cls-1" data-name="선 78" transform="translate(222.402 217.699)"/>
+            <g id="그룹_448" data-name="그룹 448">
+                <path id="선_77" d="M0 0h9.927" class="cls-1" data-name="선 77" transform="translate(210.5 217.699)"/>
+                <path id="선_105" d="M0 0h9.927" class="cls-1" data-name="선 105" transform="translate(210.5 224.699)"/>
+                <path id="선_106" d="M0 0h4" class="cls-1" data-name="선 106" transform="translate(222.402 224.699)"/>
+            </g>
+        </g>
+        <path id="사각형_156" d="M0 0h16v25H0z" class="cls-2" data-name="사각형 156" transform="translate(34 215)"/>
+    </g>
+</svg>

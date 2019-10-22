@@ -1,0 +1,32 @@
+.post-thumb {
+   width: 49%;
+   float: left;
+   margin-bottom: 16px;
+
+   &:nth-child(odd) {
+      margin-right: 2%;
+   }
+
+   &__img {
+      height: 111px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+   }
+
+   h2 {
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      word-wrap:normal;
+      margin: 5px 0 0px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 23px;
+   }  
+}
+
+
+.post-list-thumb ul {
+   margin-top: 15px;
+}

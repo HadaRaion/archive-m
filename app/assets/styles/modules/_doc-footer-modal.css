@@ -1,0 +1,137 @@
+.doc__footer__modal {
+   padding-top: 47px;
+   padding-bottom: 100px;
+}
+
+.doc__footer__attachment {
+   
+   li {
+      border-bottom: solid 1px #707070;
+      line-height: 24px;
+      padding: 12px 0 14px;
+      color: #fff;
+      font-size: 14px;
+      
+   }
+
+   li:first-child span {
+         font-size: 11px;
+         font-weight: 500;
+         margin-right: 10px;
+   }
+
+   .btn-download {
+      float: right;
+      line-height: 30px;
+      margin-right: 5px;
+   }
+}
+
+
+.doc__footer__rel {
+
+   .li-title-dot {
+      border-bottom: solid 1px #707070;
+      padding: 19px 0 14px;
+   }
+
+   .li-title-dot:last-child {
+      border: none;
+   }
+   .rel-contents {
+      margin-top: 10px;
+
+      & > li {
+         font-size: 14px;
+         line-height: 20px;
+         color: #fff;
+         padding: 5px 0;
+         margin-left: 10px;
+
+         &::before {
+            content: '·';
+            margin-right: 8px;
+         }
+      }
+   }
+}
+
+.doc__footer__detail {
+
+   .li-title-dot {
+      border-bottom: solid 1px #707070;
+      padding: 11px 0 12px;
+
+      &> ul {
+         margin-top: 4px;
+         margin-left: 13px;
+      }
+
+      li {
+         font-size: 14px;
+         line-height: 23px;
+         letter-spacing: -0.56px;
+         color: #fff;
+      }
+
+      & .btn-small {
+         margin-left: 5px;
+      }
+   }
+
+   .detail-class {
+      float: left;
+      margin-right: 5px;
+
+      &::before {
+         content: '\e93f';
+         font-family: 'xeicon';
+         margin-right: 5px;
+         position: relative;
+         top: 1px;
+       }
+
+       &:first-child::before {
+       content: '';
+       margin-right: 0;
+       } 
+
+   }
+
+   .detail-tag {
+      float: left;
+      margin-right: 5px;
+
+      & > .btn-tag {
+         color: #3d3d3d;
+         background-color: #a7a7a7;
+      }
+   }
+
+   .other-contents {
+      margin: 20px 0 10px;
+      display: none;
+
+      &.active {
+         display: block;
+      }
+
+      li {
+         text-overflow:ellipsis;
+         white-space:nowrap;
+         word-wrap:normal;
+         overflow:hidden;
+         line-height: 30px;
+      }
+
+      li:first-child {
+         color: #73c2ff;
+      }
+
+      li::before {
+         content: '·';
+         margin-right: 8px;
+      }
+   }
+
+}

@@ -1,0 +1,89 @@
+.comment {
+   
+   &__title {
+      line-height: 35px;
+
+      > i {
+         font-size: 18px;
+         color: #a7a7a7;
+         margin-right: 5px;
+         transform: translateY(3px);
+      }
+   }
+
+   ul {
+      background-color: #ececec;
+   }
+
+   li {
+      border-bottom: solid 1px #ccc;
+      padding: 10px;
+   }
+
+   
+   &__name-date {
+      font-size: 11px;
+      font-weight: 500;
+   }
+
+   &__date {
+      margin-left: 5px;
+      color: #a7a7a7;
+   }
+
+   &__text {
+      position: relative;
+      margin-top: 5px;
+      font-size: 14px;
+      line-height: 23px;
+   }
+
+   &__btn {
+      position: absolute;
+      bottom: -3px;
+      right: 0;
+
+      button {
+         width: 28px;
+         height: 30px;
+         font-size: 0;
+      }
+
+      button::before {
+         font-family: 'xeicon';
+         font-size: 15px;
+         color: #a7a7a7;
+      }
+
+      .comment-edit::before {
+         content: "\e9c3";
+      }
+
+      .comment-del::before {
+         content: "\e96e";
+      }
+   }
+
+   &__add {
+      padding: 12px;
+
+      textarea {
+         width: calc(100% - 46px);
+         margin-right: 4px;
+         height: 33px !important;
+         border: none;
+         resize: none;
+      }
+
+      button {
+         display: block;
+         float: right;
+         width: 42px;
+         height: 33px;
+         border-radius: 3px;
+         background: #a7a7a7;
+         color: #fff;
+         font-size: 12px;
+      }
+   }
+}

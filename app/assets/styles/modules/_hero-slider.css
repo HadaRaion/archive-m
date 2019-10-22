@@ -1,0 +1,64 @@
+.hero-slider {
+   position: relative;
+   z-index: 5;
+
+   &__interior {
+      padding-top: 82px;
+      padding-bottom: 81px;
+      text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      line-height: 16px;
+
+      & > pre{
+         font-size: 12px;
+         line-height: 1.33;
+      }
+   }
+
+   &__slide {
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
+
+   .slick-dots {
+      z-index: 10;
+      position: absolute;
+      left: 0;
+      right: 0;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      bottom: 20px;
+    }
+   
+   .slick-dots {
+      
+      li {
+        list-style: none;
+        display: inline;
+      }
+    
+      li button {
+        display: inline-block;
+        text-indent: -9999px;
+        font-size: 0;
+        line-height: 0;
+        width: 10px;
+        height: 10px;
+        background-color: rgba(255, 255, 255, .5);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+        border-radius: 50%;
+        border: none;
+        margin: 0 4px;
+        padding: 0;
+        outline: none;
+        transition: background-color .3s ease-out;
+        cursor: pointer;
+      }
+    
+      .slick-active button {
+        background-color: #FFF;
+      }
+    
+    }
+
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="52" viewBox="0 0 51 52">
+    <defs>
+        <style>
+            .cls-1{fill:#dcdcdc}.cls-2,.cls-3{fill:none;stroke:#fff;stroke-linecap:round;stroke-width:2px}.cls-2{stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="그룹_775" data-name="그룹 775" transform="translate(-112 -1756)">
+        <g id="그룹_582" data-name="그룹 582" transform="translate(111.755 1756.079)">
+            <ellipse id="타원_50" cx="25.5" cy="26" class="cls-1" data-name="타원 50" rx="25.5" ry="26" transform="translate(.245 -.079)"/>
+            <g id="그룹_595" data-name="그룹 595" transform="translate(11.086 14.781)">
+                <path id="패스_956" d="M499.82 493.464c-.638-1.8-2.9-1.436-2.9-1.436h-10.635l2.589-2.795v-16.5h7.051c2.926 0 5.3 1.935 5.3 4.861h.146c0-2.926 2.372-4.861 5.3-4.861h7.051v16.75l2.589 2.55h-10.645a2.99 2.99 0 0 0-2.9 1.436 1.013 1.013 0 0 1-.905.6h-1.139a.951.951 0 0 1-.902-.605z" class="cls-2" data-name="패스 956" transform="translate(-486.285 -472.656)"/>
+                <path id="선_107" d="M0 0v14.637" class="cls-2" data-name="선 107" transform="translate(15.01 4.517)"/>
+                <g id="그룹_592" data-name="그룹 592" transform="translate(5.969 6.483)">
+                    <path id="선_108" d="M0 0h5.03" class="cls-3" data-name="선 108" transform="translate(0 -1)"/>
+                    <path id="선_109" d="M0 0h5.03" class="cls-2" data-name="선 109" transform="translate(0 2.583)"/>
+                    <path id="선_110" d="M0 0h5.03" class="cls-2" data-name="선 110" transform="translate(0 6.167)"/>
+                </g>
+                <g id="그룹_593" data-name="그룹 593" transform="translate(18.58 6.483)">
+                    <path id="선_111" d="M0 0h5.03" class="cls-2" data-name="선 111" transform="translate(0 -1)"/>
+                    <path id="선_112" d="M0 0h5.03" class="cls-2" data-name="선 112" transform="translate(0 2.583)"/>
+                    <path id="선_113" d="M0 0h5.03" class="cls-2" data-name="선 113" transform="translate(0 6.167)"/>
+                </g>
+                <g id="그룹_594" data-name="그룹 594" transform="translate(2.589 16.824)">
+                    <path id="패스_957" d="M491 503.239h10.891a1.937 1.937 0 0 1 1.6 2.186" class="cls-2" data-name="패스 957" transform="translate(-491 -503.239)"/>
+                    <path id="패스_958" d="M526.252 503.239h-10.89a1.937 1.937 0 0 0-1.6 2.186" class="cls-2" data-name="패스 958" transform="translate(-501.264 -503.239)"/>
+                </g>
+                <path id="패스_960" d="M488.874 472.6l-2.589 3.9v15.254" class="cls-2" data-name="패스 960" transform="translate(-486.285 -472.596)"/>
+                <path id="패스_961" d="M536.248 472.6l2.589 3.9v15.254" class="cls-2" data-name="패스 961" transform="translate(-508.817 -472.596)"/>
+            </g>
+        </g>
+    </g>
+</svg>

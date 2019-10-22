@@ -1,0 +1,72 @@
+.existing-docs {
+   margin-top: 32px;
+   
+   &__cat {
+      float: left;
+      width: 25%;
+      height: 102px;
+      color: #a7a7a7;
+      margin-bottom: 38px;
+
+      &:first-child {
+         color: $boxBlue;
+      }
+
+      &__title {
+         font-size: 11px;
+         font-weight: bold;
+         line-height: 18px;
+         margin-top: 6px;
+      }
+
+      .num {
+         font-family: Roboto;
+         font-size: 22px;
+         font-weight: 900;
+      }
+
+      & i {
+         display: block;
+         width: 52px;
+         height: 52px;
+         margin: 0 auto;
+
+         
+
+         &.icon-{
+            &all {
+               background: url(../images/icons/icon-all.svg) no-repeat;
+               background-size: 52px 52px;
+            }
+            &book {
+               background: url(../images/icons/icon-book.svg) no-repeat;
+               background-size: 52px 52px;
+            }
+            &doc {
+               background: url(../images/icons/icon-doc.svg) no-repeat;
+               background-size: 52px 52px;
+            }
+            &pic {
+               background: url(../images/icons/icon-pic.svg) no-repeat;
+               background-size: 52px 52px;
+            }
+            &video {
+               background: url(../images/icons/icon-video.svg) no-repeat;
+               background-size: 52px 52px;
+            }
+            &relic {
+               background: url(../images/icons/icon-relic.svg) no-repeat;
+               background-size: 52px 52px;
+            }
+            &newspaper {
+               background: url(../images/icons/icon-newspaper.svg) no-repeat;
+               background-size: 52px 52px;
+            }
+            &voice {
+               background: url(../images/icons/icon-voice.svg) no-repeat;
+               background-size: 52px 52px;
+            }
+         }
+      }
+   }
+}

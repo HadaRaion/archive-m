@@ -1,0 +1,127 @@
+.board-write {
+
+   &-container {
+      margin-top: 20px;
+      border-top: solid 1px #000;
+   }
+
+   &__box {
+
+
+      li {
+         padding: 7px 0;
+         border-bottom: solid 1px #ccc;
+         line-height: 26px;
+      }
+
+      li:last-child {
+         border-bottom: none;
+      }
+
+      .li-title-dot{
+         width: 80px;
+         float: left;
+         color: #707070;
+
+         &::before {
+            background-color: #707070;;
+         }
+      }
+
+      .input-container {
+         width: calc(100% - 80px);
+         height: 26px;
+         line-height: 26px;
+      }
+
+      label {
+         margin-top: 4px;
+         color: #707070;
+      }
+
+      input[type=text], input[type=password] {
+         width: calc(100% - 80px);
+         border: none;
+         background-color: #ececec;
+         height: 26px;
+      }
+
+      textarea {
+         width: 100%;
+         height: 267px;
+         border: solid 1px #cccccc;
+         margin-top: 5px;
+         resize: none;
+      }
+   }
+
+   &__attachments li {
+      border : none;
+      height: 26px;
+      padding: 0;
+      margin-top: 10px;
+
+      > i {
+         font-size: 20px;
+         transform: rotate(-40deg) translate(-4px, 2px);   
+         display: block;
+         float: left;
+
+      }
+
+
+      > input {
+            display: block;
+            float: left;
+            width: calc(100% - 90px);
+            height: 26px;
+            line-height: 26px;
+            background-color: #ececec;
+            font-size: 10px;
+            padding: 0;
+            line-height: 20px;
+      }
+
+      > button {
+         display: block;
+         float: left;
+         width: 24px;
+         height: 24px;
+         background: #a7a7a7;
+         margin-top: 1px;
+         margin-left: 6px;
+            
+            
+         > i {
+            color: #fff;
+            transform: translate(-3px, -2px);
+         }
+      }
+   }
+
+   &__buttons {
+      margin-top: 30px;
+      text-align: center;
+
+      a {
+         margin-right: 2px;
+      }
+      .cancel > i {
+         font-size: 20px;
+         transform: translateY(4px);
+      }
+
+      .save > i {
+         font-size: 20px;
+         transform: translateY(4px);
+      }
+
+      .to-list {
+         padding-right: 3px;
+         i {
+            color: #fff;
+         }
+      }
+   }  
+
+}

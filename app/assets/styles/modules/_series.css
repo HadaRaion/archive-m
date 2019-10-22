@@ -1,0 +1,34 @@
+.series {
+   .search-box input{
+      font-size: 11px;
+      color: #a7a7a7;
+      line-height: inherit;
+
+      &::placeholder{
+         line-height: 20px;
+
+      }
+   }
+   .series-post-container {
+      margin-top: 32px;
+   }
+
+   .series-post {
+
+      &__img {
+         height: 188px;
+      }
+      
+      &__textbox {
+         height: 175px;
+      }
+
+      .text-date {
+         line-height: 23px;
+      }
+   
+      .text {
+         -webkit-line-clamp: 3;
+      }
+   }
+}

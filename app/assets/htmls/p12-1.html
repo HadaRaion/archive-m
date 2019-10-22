@@ -1,0 +1,164 @@
+@@include('modules/header.html')
+
+<!-- p12-1 게시판 start -->
+<div class="main board board-post">
+   <div class="wrapper">
+
+<!-- 검색  영역 start -->
+   <section class="board__search">
+      <div class="wrapper">
+         <div class="board-search">
+            <form action="">
+               <select id="array-sort">
+                  <option value="" rel="">제목+본문</option>
+                  <option value="">제목+내용</option>
+                  <option value="">제목만</option>
+                  <option value="">글 작성자</option>
+               </select>
+               <input type="text" placeholder="" name="search">
+               <button type="submit">검색</button>
+            </form>
+         </div>
+      </div>
+   </section>
+<!-- 검색  영역 end -->
+
+<!-- 게시판 네비게이션 메뉴 start -->
+   <section class="board__nav">
+      <nav class="board-nav">
+         <div class="board-nav__list">
+            <a href="#" class="current-menu">전체</a>
+         </div>
+
+         <div class="board-nav__list">
+            <a href="#">공지사항</a>
+         </div>
+
+         <div class="board-nav__list">
+            <a href="#">이름이 긴 게시판</a>
+         </div>
+
+         <div class="board-nav__list">
+            <a href="#">자유게시판</a>
+         </div>
+      </nav>
+   </section>
+<!-- 게시판 네비게이션 메뉴 end -->
+
+<!-- 게시판 포스트 start -->  
+   <section class="board-post-container">
+      
+         <div class="board-post__post">
+
+<!-- 게시판 포스트 - 제목 start -->
+            <div class="board-post__title">
+               <h1 class="headline--medium t-bold t-center">기록학 아카이브를 둘러보시며 기로관리라는 생소한 분야에 대해 </h1>
+            </div>
+<!-- 게시판 포스트 - 제목 end -->
+
+<!-- 게시판 포스트 - 정보 start -->
+            <div class="board-post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6 12:55:18</span>
+               <span class="info info-views">3</span>
+               <span class="info info-download">3</span>
+            </div>
+<!-- 게시판 포스트 - 정보 end -->
+
+<!-- 게시판 포스트 - 본문 start -->
+            <div class="board-post__text">
+               <p>
+                  내가 감옥 가기 전 마지막으로 본 영화이기도 하고, 그 영화의 첫 장면과 함께 흐르는 주제목의 선율이 그렇게 마음에 와 닿았습니다. 영화의 첫 장면과 마지막 장면이 인상적이었습니다. 전사한 오빠의 친구이자 레지스탕스 대원이고, 지금은 살인죄로 7년째 복역하고 있는 연인 부베를 접견하러 가는 마라의 프로필이 열차 차창에 실루엣으로 뜨면서 독백과 함께 주제곡이 흐릅니다. 영화의 마지막 장면 역시 처음의 열차 차창으로 다시 돌아오면서 주제곡의 잔잔한 선율로 끝납니다.
+               </p>
+            </div>
+<!-- 게시판 포스트 - 본문 end -->
+
+<!-- 게시판 포스트 - 첨부파일 start -->
+            <div class="board-post__attachment">
+               <ul>
+                  <li><a href="#" class="">기록학 아카이브1.jpg</a></li>
+                  <li><a href="#" class="">기록학 아카이브2.jpg</a></li>     
+               </ul>
+            </div>
+<!-- 게시판 포스트 - 첨부파일 end -->
+
+<!-- 게시판 포스트 - 덧글 start -->
+            <div class="board-post__comment comment">
+
+<!-- 게시판 포스트 - 덧글 - 갯수 start -->
+               <div class="comment__title">
+                  <i class="xi-comment"></i> 
+               </div>
+<!-- 게시판 포스트 - 덧글 - 갯수 end -->
+
+               <ul>
+                  <li>
+                        <div class="comment__name-date">
+                           <span class="comment-name">김이슬</span> <span class="comment__date">2019. 9. 9 14:51:15</span>
+                        </div>
+                        <div class="comment__text">
+                           <p>댓글 내용입니다. 댓글 댓글 댓글입니다.</p>
+                        </div>
+                  </li>
+
+                  <li>
+                        <div class="comment__name-date">
+                           <span class="comment-name">김이슬</span> <span class="comment__date">2019. 9. 9 14:51:15</span>
+                        </div>
+                        <div class="comment__text">
+                           <p>댓글 내용입니다. 댓글 댓글 댓글입니다.</p>
+                        </div>
+                  </li>
+
+                  <li>
+                        <div class="comment__name-date">
+                           <span class="comment-name">김이슬</span> <span class="comment__date">2019. 9. 9 14:51:15</span>
+                        </div>
+                        <div class="comment__text">
+                           <p>댓글 내용입니다. 댓글 댓글 댓글입니다. 댓글 내용입니다. 댓글 댓글 댓글입니다.댓글 내용입니다. 댓글 댓글 댓글입니다.댓글 내용입니다. 댓글 댓글 댓글입니다.댓글 내용입니다. 댓글 댓글 댓글입니다.댓글 내용입니다. 댓글 댓글 댓글입니다.댓글 내용입니다. 댓글 댓글 댓글입니다.</p>
+<!-- 게시판 포스트 - 덧글 - 수정 및 삭제 버튼 start -->
+                           <div class="comment__btn">
+                              <button type="button" class="comment-edit">수정</button>
+                              <button type="button" class="comment-del">삭제</button>
+                           </div>
+<!-- 게시판 포스트 - 덧글 - 수정 및 삭제 버튼 end -->
+                        </div>
+                  </li>
+
+<!-- 게시판 포스트 - 덧글 - 입력 start -->
+                  <div class="comment__add">
+                        <form>
+                           <textarea></textarea>
+                           <button type="button">등록</button>
+                        </form>
+                  </div>
+<!-- 게시판 포스트 - 덧글 - 입력 end -->
+
+               </ul>
+            </div>
+<!-- 게시판 포스트 - 덧글 end -->
+
+
+<!-- 게시판 포스트 - 버튼 start -->
+            <div class="board-post__buttons">
+               <a class="btn btn-light edit" href="#"><i class="xi-pen"></i>수정</a>
+               <a class="btn btn-light del" href="#"><i class="xi-trash"></i>삭제</a>
+               <a class="btn btn-dark reply" href="#"><i class="xi-subdirectory-arrow"></i>답글</a>
+               <a class="btn btn-dark to-list" href="#" title="목록으로가기"><i class="xi-bars"></i></a>
+            </div>
+<!-- 게시판 포스트 - 등록 메뉴 버튼 end --> 
+<!-- 게시판 포스트  - 글쓰기 버튼 start -->
+            <div class="board__write btn-write">
+               <a href="/p12-2.html" title="글쓰기버튼">+</a>
+            </div>
+<!-- 게시판 포스트  - 글쓰기 버튼 end -->
+         </div>
+
+   </section>
+<!-- 게시판 포스트 end -->
+   
+   </div>
+</div>
+<!-- p12-1 게시판  end -->
+
+@@include('modules/footer.html')

@@ -1,0 +1,172 @@
+.cat-menu {
+   width: 233px;
+
+   li {
+      position: relative;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      word-wrap: normal;
+   }
+
+   label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      word-wrap: normal;
+   }
+
+   .depth1 ul, input[type="checkbox"] {
+      display:none;
+   }
+
+   .depth1 input:checked ~ ul {
+      display: block;
+   }
+
+   label::after {
+      content: "\e936";
+      font-family: xeicon;
+      position: absolute;
+      right: 0;
+   }
+
+   input:checked ~ label::after {
+      content: "\e930";
+      color: #2da3ff;
+   }
+
+   .depth1 {
+
+      & > label {
+      font-size: 15px;
+      font-weight: bold;
+      color: #707070;
+      line-height: 24px;
+      display: block;
+      padding: 10px 0;
+      }
+
+      & > input:checked ~ label {
+         color: #2da3ff;
+      }
+
+      & > label::after {
+         content: "\e942";
+         font-family: xeicon;
+      }
+
+      & > input:checked ~ label::after {
+         content: "\e945";
+         font-family: xeicon;
+      }
+
+      .line-depth1 {
+         border-bottom: solid 1px #a7a7a7;
+      }
+
+      & > ul > li:first-child {
+         margin-top: 5px;
+      }
+   
+      & > ul > li:last-child {
+         margin-bottom: 40px;
+      }
+   }
+
+   .depth2 {
+      margin-left: 15px;
+
+      & > label {
+         font-size: 14px;
+         font-weight: 500;
+         color: #707070;
+         line-height: 24px;
+         padding: 5px 0;
+         display: block;
+         max-width: calc(100% - 20px);
+         
+      }
+
+      & > input:checked ~ label {
+         color: #2da3ff;
+      }
+
+      .line-depth2 {
+         border-bottom: solid 1px #a7a7a7;
+      }
+
+      & > ul > li:first-child {
+         margin-top: 10px;
+      }
+   
+      & > ul > li:last-child {
+         margin-bottom: 30px;
+      }
+   }
+
+   .depth3 {
+      margin-left: 0px;
+      font-size: 13px;
+      font-weight: 400;
+      color: #707070;
+      line-height: 24px;
+      display: block;
+      padding: 2px 0;
+
+      & > label {
+      display: block;
+      max-width: calc(100% - 20px);
+      }
+
+      & > input:checked ~ label {
+         color: #2da3ff;
+      }
+
+      & > ul > li:first-child {
+         margin-top: 5px;
+      }
+   
+      & > ul > li:last-child {
+         margin-bottom: 5px;
+      }
+   }
+   
+   .depth4 {
+      margin-left: 15px;
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #a7a7a7;
+      display: block;
+      padding: 2px 0;
+
+      & > label {
+      display: block;
+      max-width: calc(100% - 15px);
+      }
+
+      & > input:checked ~ label {
+         color: #2da3ff;
+      }
+
+      & > ul > li:first-child {
+         margin-top: 5px;
+      }
+   
+      & > ul > li:last-child {
+         margin-bottom: 5px;
+      }
+   }
+
+   .depth5 {
+      margin-left: 15px;
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #a7a7a7;
+      display: block;
+      padding: 1px 0;
+   }
+
+}

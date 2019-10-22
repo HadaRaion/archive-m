@@ -1,0 +1,140 @@
+.site-header {
+   position: relative;
+
+   &__top-menu {
+      width: 100%;
+      height: 47px;
+      position: fixed;
+      top: 0;
+      z-index: 100;
+      background: #fff;
+      border-bottom:  solid 1px #ccc;
+
+      &__logo {
+         width: 130px;
+         height: 34px;
+         float: left;
+         margin-left: 7px;
+         margin-top: 6px;
+         background-repeat: no-repeat;
+         background-size: contain;
+         background-position: left center;
+
+         & > a {
+            display: block;
+            width: 100%;
+            height: 34px;
+            font-size: 0;
+         }
+      }
+
+      &__search {
+         position: absolute;
+         top: 16px;
+         right:59px;
+         font-size: 0;
+
+
+         > a {
+            display: block;
+            width: 19px;
+            height: 19px;
+            background: url(../images/icons/icon-search.svg) no-repeat right bottom;
+         }
+      }
+   }
+
+   &__bottom-menu {
+      width: 100%;
+      height: 47px;
+      position: fixed;
+      bottom: 0;
+      z-index: 120;
+      background: #fff;
+      border-top: solid 1px #ccc;
+
+      ul {
+         position: relative;
+      }
+
+      li {
+         float: left;
+      }
+
+      a {
+         display: block;
+         font-size: 9px;
+         font-weight: 500;
+         color: #000;
+         line-height: 47px;
+
+         &::before {
+            content: '';
+            display: block;
+            float: left;
+            width: 23px;
+            height: 25px;
+            margin-right: 7px;
+            margin-top: 11px;
+         }
+
+         &::after {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 4px;
+            background-color: $boxBlue;
+            margin-left: 4px;
+            opacity: 0;
+         }
+      }
+
+      a.current-page::after {
+         opacity: 1;
+      }
+      
+      &__cat {
+         margin-right: 21px;
+         
+         &::before {
+         background: url(../images/icons/icon-cat.svg);
+         background-size: 23px 25px;
+         }
+      }
+
+      &__cat.active {
+         color: $boxBlue;
+
+         &::before {
+         background: url(../images/icons/icon-cat-active.svg);
+         background-size: 23px 25px;
+         }
+      }
+
+      &__dic {
+         margin-right: 21px;
+
+         &::before {
+         background: url(../images/icons/icon-dic.png);
+         background-size: 23px 25px;
+         }
+      }
+
+      &__timeline {
+         margin-right: 15px;
+         &::before {
+         background: url(../images/icons/icon-timeline.svg);
+         background-size: 23px 25px;
+         }
+      }
+
+      &__series {
+         margin-right: 0;
+         &::before {
+         background: url(../images/icons/icon-series.png);
+         background-size: 23px 25px;
+         }
+      }
+   }
+}

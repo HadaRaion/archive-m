@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="그룹_386" width="18.902" height="19.043" data-name="그룹 386" viewBox="0 0 18.902 19.043">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#000;stroke-width:2px}.cls-2{stroke:none}.cls-3{fill:none}
+        </style>
+    </defs>
+    <rect id="사각형_20" width="10" height="4" data-name="사각형 20" rx="2" transform="rotate(45 -5.121 18.853)"/>
+    <g id="타원_48" class="cls-1" data-name="타원 48">
+        <circle cx="7.5" cy="7.5" r="7.5" class="cls-2"/>
+        <circle cx="7.5" cy="7.5" r="6.5" class="cls-3"/>
+    </g>
+</svg>

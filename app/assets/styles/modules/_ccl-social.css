@@ -1,0 +1,75 @@
+.ccl-social {
+   margin-top: 93px;
+   height: 30px;
+   width: 250px;
+   margin: 35px auto 0;
+   position: relative;
+
+   .ccl {
+
+      &-image {
+         width: 74px;
+         height: 27px;
+         background: url(../images/ccl-by-nc-nd.svg) no-repeat;
+         background-size: 74px 27px;
+         float: left;
+         margin-right: 11px;
+      }
+
+      &-info {
+         font-size: 10px;
+         font-weight: bold;
+         line-height: 14px;
+         float: left;
+      }
+   }
+
+   .social {
+      width: 35px;
+      height: 25px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      border-left: 1px solid #a7a7a7;
+
+
+
+      button {
+         width: 25px;
+         height: 25px;
+         font-size: 0;
+         background: url(../images/icons/icon-social-share.svg) no-repeat;
+         background-size: 25px 25px;
+         float: right;
+      }
+
+      .sns-share__list {
+         width: 168px;
+         height: 52px;
+         border: 1px solid #000;
+         background: #fff;
+         position: absolute;
+         top: -60px;
+         left : -100px;
+         padding: 12px 11px;
+         display: none;
+      
+         li > a {
+
+            width: 28px;
+            height: 28px;
+            border-radius: 18px;
+            float: left;
+            margin: 0 10px;
+            color: #fff;
+            line-height: 28px;
+            font-size: 18px;
+
+            &.fb { background: #3c5a98; }      
+            &.tw { background: #59aded; }
+            &.ka { background: #fad32e; }
+            
+         }
+      }
+   }  
+}

@@ -1,0 +1,129 @@
+@@include('modules/header.html')
+
+<!-- p12-2 게시판 글쓰기 start -->
+<div class="main board board-write">
+   <div class="wrapper">
+
+<!-- 검색  영역 start -->
+   <section class="board__search">
+      <div class="wrapper">
+         <div class="board-search">
+            <form action="">
+               <select id="array-sort">
+                  <option value="" rel="">제목+본문</option>
+                  <option value="">제목+내용</option>
+                  <option value="">제목만</option>
+                  <option value="">글 작성자</option>
+               </select>
+               <input type="text" placeholder="" name="search">
+               <button type="submit">검색</button>
+            </form>
+         </div>
+      </div>
+   </section>
+<!-- 검색  영역 end -->
+
+<!-- 게시판 네비게이션 메뉴 start -->
+   <section class="board__nav">
+      <nav class="board-nav">
+         <div class="board-nav__list">
+            <a href="#" class="current-menu">전체</a>
+         </div>
+
+         <div class="board-nav__list">
+            <a href="#">공지사항</a>
+         </div>
+
+         <div class="board-nav__list">
+            <a href="#">이름이 긴 게시판</a>
+         </div>
+
+         <div class="board-nav__list">
+            <a href="#">자유게시판</a>
+         </div>
+      </nav>
+   </section>
+<!-- 게시판 네비게이션 메뉴 end -->
+
+<!-- 게시판 포스트 start -->  
+   <section class="board-write-container">
+      
+<!-- 글쓰기 박스 start -->
+      <form class="board-write__box">
+
+<!-- 글쓰기 박스 - 작성자 + 비밀번호 start -->
+         <ul>
+            <li>
+               <div class="li-title-dot">작성자</div>
+               <input type="text" id="" name="" value="">
+            </li>
+
+            <li>
+               <div class="li-title-dot">비밀번호</div>
+               <input type="password" id="" name="" value="">
+            </li>
+<!-- 글쓰기 박스 - 작성자 + 비밀번호 end -->
+
+<!-- 글쓰기 박스 - 비밀구분 start -->
+            <li>
+               <div class="li-title-dot">비밀구분</div>
+               <div class="input-container">
+                  <label class="checkbox-container">공개
+                     <input type="radio" checked="checked" name="radio" value="">
+                     <span class="checkmark checkmark-radio"></span>
+                  </label>
+                  <label class="checkbox-container">비밀
+                     <input type="radio" name="radio" value="">
+                     <span class="checkmark checkmark-radio"></span>
+                  </label>
+               </div>
+
+            </li>
+<!-- 글쓰기 박스 - 비밀구분 end -->
+
+<!-- 글쓰기 박스 - 제목 start -->
+            <li>
+               <div class="li-title-dot">제목</div>
+               <input type="text" id="" name="" value="">
+            </li>
+<!-- 글쓰기 박스 - 제목 end -->
+
+<!-- 글쓰기 박스 - 텍스트 start -->
+            <li class="board_content">
+               <div class="li-title-dot">내용</div>
+               <textarea></textarea>
+            </li>
+         </ul>
+<!-- 글쓰기 박스 - 텍스트 end -->
+
+<!-- 글쓰기 박스 - 첨부파일 start -->
+         <ul class="board-write__attachments">
+            <li>
+               <i class="xi-attachment"> </i>
+               <input type="file">
+               <button class="btn btn-plus" title="추가"><i class="xi-plus-min"></i></button>
+               <button class="btn btn-del" title="삭제"><i class="xi-trash"></i></button>
+            </li>
+
+         </ul>
+<!-- 글쓰기 박스 - 첨부파일 end -->
+      
+      </form>
+<!-- 글쓰기 박스 end -->
+      
+<!-- 글쓰기 하단 메뉴 start -->
+      <div class="board-write__buttons">
+         <a class="btn btn-dark cancel" href="#"><i class="xi-close-min"></i>취소</a>
+         <a class="btn btn-dark save" href="#"><i class="xi-check-min"></i>저장</a>
+         <a class="btn btn-dark to-list" href="/p12.html" title="목록으로가기"><i class="xi-bars"></i></a>
+      </div>
+<!-- 글쓰기 하단 메뉴 end -->  
+
+   </section>
+<!-- 게시판 포스트 end -->
+   
+   </div>
+</div>
+<!-- p12-2 게시판 글쓰기 end -->
+
+@@include('modules/footer.html')

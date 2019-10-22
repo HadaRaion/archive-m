@@ -1,0 +1,48 @@
+@@include('modules/header.html')
+
+<!-- p01 로그인 start -->
+<div class="main signin">
+
+<!-- 닫기버튼 start -->
+   <button class="btn-close btn-close-btn-close-black"><i class="xi-close-min" onclick="goBack()"></i></button>
+<!-- 닫기버튼 start -->
+
+   <div class="wrapper">
+      <section>
+         
+         <form autocomplete="off" class="">
+            <fieldset>
+<!-- 로고 start -->
+               <legend style="background-image: url(http://211.110.14.172:8081//kaitArchive/logo/20190831011049800.png);"></legend>
+<!-- 로고 end -->
+<!-- 아이디 + 비밀번호 영역 start -->
+               <div class="signin__contents">
+<!-- 아이디 start -->
+                  <div class="signin__username">
+                     <label for="username">아이디</label>
+                     <input id="username" type="text" placeholder="아이디를 입력하세요" required>
+                  </div>
+<!-- 아이디 end -->
+
+<!-- 비밀번호 start -->
+                  <div class="signin__pw">
+                     <label for="sign-pw">비밀번호</label>
+                     <input id="sign-pw" type="password" placeholder="비밀번호를 입력하세요" required>
+                  </div>
+<!-- 비밀번호 end -->
+               </div>
+<!-- 아이디 + 비밀번호 영역 end -->
+<!-- 버튼 start -->
+               <div class="signin__btn">
+                  <button class="btn-blue" id="signInButton" type="button">로그인</button>
+               </div>
+<!-- 버튼 end -->
+            </fieldset>
+         </form>
+      </section>
+
+   </div>
+</div>
+<!-- p01 로그인 end -->
+
+@@include('modules/footer.html')

@@ -1,0 +1,34 @@
+.related-posts {
+   margin-top: 30px;
+
+   &__title {
+      height: 25px;
+      background-color: #a7a7a7;
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 25px;
+      color: #fff;
+      padding-left: 14px;
+
+      &::after {
+         content: '\e942';
+         font-family: 'xeicon';
+         float: right;
+         margin-right: 10px;
+         font-size: 18px;
+      }
+
+      &.active {
+         background-color: #55aaec;
+      }
+
+      &.active::after {
+         content: '\e945';
+      }
+   }
+
+   &__contents {
+      display: none;
+      margin-top: 6px;
+   }
+}

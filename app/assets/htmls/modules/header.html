@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="keyword, keyword, keyword">
+    <meta name="description" content="webpage explanation" />
+    <!-- <link rel="shortcut icon" href="/favicon"> -->
+    <title>아카이브 모바일</title>
+
+    <!--[if lt IE 9]>
+  <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+  <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+    <link rel="stylesheet" href="temp/styles/styles.css">
+    <script src="temp/scripts/bundle.js"></script>
+</head>
+
+
+<body class="">
+<!-- 헤더 start -->
+    <header class="site-header">
+<!-- 상단메뉴 start -->
+        <div class="site-header__top-menu">
+            <div class="wrapper">
+                <div class="site-header__top-menu__logo" style="background-image: url(http://211.110.14.172:8081//kaitArchive/logo/20190831011049800.png);" >
+                    <a href="/">아카이브로고</a>
+                </div>
+
+                <div class="site-header__top-menu__search">
+                    <a href="/p03.html">검색</a>
+                </div>
+
+            </div>
+        </div>
+<!-- 상단메뉴 end -->
+<!-- 상단메뉴 토글 아이콘 start -->
+        <div class="menu-wrapper">
+            <div class="hamburger-menu"></div>
+        </div>
+<!-- 상단메뉴 토글 아이콘 end -->
+
+<!-- 상단메뉴 모달 end -->
+        <div class="main-nav">
+
+            <div class="main-nav__container">
+                <div class="wrapper">
+                    <div class="main-nav__sign-in btn-large">
+                        <a href="/p01.html" class="">로그인</a>
+                    </div>
+                    @@include('cat-menu.html')
+                </div>
+
+                <ul class="main-nav__links">
+                    <li class="main-nav__links__link-dic">
+                        <div class="wrapper">
+                            <a href="/p08.html">
+                                <div class="link-icon"></div>
+                                <div class="link-title">사전</div>
+                                <div class="link-caption">사전이 무엇인지 설명해 주세요.</div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="main-nav__links__link-timeline">
+                        <div class="wrapper">
+                            <a href="#">
+                                <div class="link-icon"></div>
+                                <div class="link-title">타임라인</div>
+                                <div class="link-caption">타임라인이 무엇인지 설명해 주세요.</div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="main-nav__links__link-series">
+                        <div class="wrapper">
+                            <a href="/p15.html">
+                                <div class="link-icon"></div>
+                                <div class="link-title">기획</div>
+                                <div class="link-caption">기획이 무엇인지 설명해 주세요.</div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="main-nav__links-2">
+                     <div class="wrapper">
+                        <div class="main-nav__about btn-large">
+                              <a href="/p11.html" class="">아카이브 소개</a>
+                        </div>
+                        <div class="main-nav__board btn-large">
+                              <a href="/p12.html" class="">게시판</a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+
+        </div>
+<!-- 상단메뉴 모달 end -->
+
+<!-- 하단메뉴 네비게이션 start -->
+        <div class="site-header__bottom-menu">
+            <div class="wrapper">
+                <ul>
+                    <li><a href="#" class="site-header__bottom-menu__cat">분류</a></li>
+                    <li><a href="/p08.html" class="site-header__bottom-menu__dic">사전</a></li>
+                    <li><a href="#" class="site-header__bottom-menu__timeline">타임라인</a></li>
+                    <li><a href="/p15.html" class="site-header__bottom-menu__series">기획</a></li>
+                </ul>
+            </div>
+
+        </div>
+<!-- 하단메뉴 네비게이션 end -->
+
+<!-- 하단메뉴 분류 모달 start -->
+        <div class="modal-cat">
+            <div class="modal-cat__container">
+                <div class="wrapper">
+                    @@include('modal-cat-menu.html')
+                </div>
+            </div>
+
+        </div>
+<!-- 하단메뉴 분류 모달 end -->
+
+<!-- 하단메뉴 분류 - 닫기버튼 start -->
+        <div class="close-menu-wrapper">
+            <div class="close-menu animate"></div>
+        </div>
+<!-- 하단메뉴 분류 - 닫기버튼 end -->
+    </header>
+<!-- 헤더 end -->

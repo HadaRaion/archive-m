@@ -1,0 +1,30 @@
+.doc {
+  padding-bottom: 59px;
+
+   &__title {
+      margin-top: 33px;
+   }
+
+   &__info {
+      text-align: center;
+      margin-top: 6px;
+
+      .info-name {
+         margin-right: 12px;
+      }
+   }
+
+   &__text {
+      margin-top: 32px;
+      color: #707070;
+      line-height: 23px;
+      letter-spacing: -0.28px;
+   }
+
+   .arrow-bottom {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 30px;
+   }
+
+}

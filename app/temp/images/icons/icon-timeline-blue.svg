@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="그룹_409" width="30.145" height="33.294" data-name="그룹 409" viewBox="0 0 30.145 33.294">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#fff;stroke:#55aaec}.cls-1,.cls-4{stroke-linecap:round}.cls-1{stroke-linejoin:round}.cls-2{stroke-linecap:square}.cls-2,.cls-4{stroke-miterlimit:10}.cls-3{fill:#55aaec}.cls-4{fill:#43adff;stroke:#fff;stroke-width:2px}.cls-5{fill:none}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="그룹_408" data-name="그룹 408" transform="translate(.677 .34)">
+        <g id="사각형_128" class="cls-1" data-name="사각형 128">
+            <path d="M0 0h17.928v19.92H0z" class="cls-6" transform="translate(11.541)"/>
+            <path d="M.5.5h16.928v18.92H.5z" class="cls-5" transform="translate(11.541)"/>
+        </g>
+        <path id="패스_905" d="M190.808 77.227v-5.232h17.928v19.92h-2.318" class="cls-2" data-name="패스 905" transform="translate(-183.75 -67.015)"/>
+        <g id="그룹_407" data-name="그룹 407" transform="translate(0 12.323)">
+            <ellipse id="타원_56" cx="10.316" cy="10.316" class="cls-3" data-name="타원 56" rx="10.316" ry="10.316"/>
+            <path id="패스_906" d="M193.254 82.112v4.766h4.323" class="cls-4" data-name="패스 906" transform="translate(-182.938 -75.981)"/>
+        </g>
+    </g>
+    <path id="사각형_129" d="M0 0h30.145v33.294H0z" class="cls-5" data-name="사각형 129"/>
+</svg>

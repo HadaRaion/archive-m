@@ -1,0 +1,216 @@
+@@include('modules/header.html')
+
+<!-- p12 게시판 start -->
+<div class="main board">
+   <div class="wrapper">
+
+<!-- 검색  영역 start -->
+   <section class="board__search">
+      <div class="wrapper">
+         <div class="board-search">
+            <form action="">
+               <select id="array-sort">
+                  <option value="" rel="">제목+본문</option>
+                  <option value="">제목+내용</option>
+                  <option value="">제목만</option>
+                  <option value="">글 작성자</option>
+               </select>
+               <input type="text" placeholder="" name="search">
+               <button type="submit">검색</button>
+            </form>
+         </div>
+      </div>
+   </section>
+<!-- 검색  영역 end -->
+
+<!-- 게시판 네비게이션 메뉴 start -->
+   <section class="board__nav">
+      <nav class="board-nav">
+         <div class="board-nav__list">
+            <a href="#" class="current-menu">전체</a>
+         </div>
+
+         <div class="board-nav__list">
+            <a href="#">공지사항</a>
+         </div>
+
+         <div class="board-nav__list">
+            <a href="#">이름이 긴 게시판</a>
+         </div>
+
+         <div class="board-nav__list">
+            <a href="#">자유게시판</a>
+         </div>
+      </nav>
+   </section>
+<!-- 게시판 네비게이션 메뉴 end -->
+
+<!-- 게시판 포스트 start -->
+<!-- 첨부파일 유무, 덧글의 유무, 비밀글인지 공개글인지에 따라 li > div.board__post__title > p 의 max-widht 값이 달라집니다.
+기본적으로 li 의 class 값이 board-post 만 있으나  
+코멘트, 비밀글, 첨부파일 모두가 표기 될 경우에는 class 명 board-post-3 이 추가
+코멘트, 비밀글, 첨부파일 중 두개가 표기 될 경우에는 class 명 board-post-2 이 추가
+코멘트, 비밀글, 첨부파일 중 하나가 표기 될 경우에는 class 명 board-post-1 이 추가
+
+됩니다.
+또한 기본 글이 아닌 덧글의 경우이는 class 명 re 도 추가 됩니다.
+-->   
+   <section class="board__post">
+      <ul>
+         <li class="board-post board-post-3"><a href="/p12-1.html">
+            <div class="board__post__title">
+               <p>보존 기록 기술에 관한 북미 프로젝트에 관한 문의사항이 있습니다.</p>
+               <span class="comments">23</span>
+               <i class="secret"></i>
+               <i class="attachment"></i>
+            </div>
+
+            <div class="board__post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6</span>
+               <span class="info info-views">3</span>
+            </div>
+         </a></li>
+
+         <li class="board-post board-post-1 re"><a href="/p12-1.html">
+            <div class="board__post__title">
+               <p>보존 기록 기술에 관한 북미 프로젝트에 관한 문의사항이 있습니다.</p>
+               <i class="secret"></i>
+            </div>
+
+            <div class="board__post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6</span>
+               <span class="info info-views">3</span>
+            </div>
+         </a></li>
+         
+         <li class="board-post board-post-2"><a href="/p12-1.html">
+            <div class="board__post__title">
+               <p>보존 기록 기술에 관한 북미 프로젝트에 관한 문의사항이 있습니다.</p>
+               <span class="comments">23</span>
+               <i class="secret"></i>
+            </div>
+
+            <div class="board__post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6</span>
+               <span class="info info-views">3</span>
+            </div>
+         </a></li>
+
+         <li class="board-post board-post-2"><a href="/p12-1.html">
+            <div class="board__post__title">
+               <p>보존 기록 기술에 관한 북미 프로젝트에 관한 문의사항이 있습니다.</p>
+               <span class="comments">23</span>
+               <i class="attachment"></i>
+            </div>
+
+            <div class="board__post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6</span>
+               <span class="info info-views">3</span>
+            </div>
+         </a></li>
+
+         <li class="board-post board-post-1"><a href="/p12-1.html">
+            <div class="board__post__title">
+               <p>보존 기록 기술에 관한 북미 프로젝트에 관한 문의사항이 있습니다.</p>
+               <span class="comments">23</span>
+            </div>
+
+            <div class="board__post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6</span>
+               <span class="info info-views">3</span>
+            </div>
+         </a></li>
+
+         <li class="board-post board-post-1"><a href="/p12-1.html">
+            <div class="board__post__title">
+               <p>보존 기록 기술에 관한 북미 프로젝트에 관한 문의사항이 있습니다.</p>
+               <i class="attachment"></i>
+            </div>
+
+            <div class="board__post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6</span>
+               <span class="info info-views">3</span>
+            </div>
+         </a></li>
+
+         <li class="board-post board-post-1"><a href="/p12-1.html">
+            <div class="board__post__title">
+               <p>보존 기록 기술에 관한 북미 프로젝트에 관한 문의사항이 있습니다.</p>
+               <i class="secret"></i>
+            </div>
+
+            <div class="board__post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6</span>
+               <span class="info info-views">3</span>
+            </div>
+         </a></li>
+
+         <li class="board-post board-post-3 re"><a href="/p12-1.html">
+            <div class="board__post__title">
+               <p>보존 기록 기술에 관한 북미 프로젝트에 관한 문의사항이 있습니다.</p>
+               <span class="comments">23</span>
+               <i class="secret"></i>
+               <i class="attachment"></i>
+            </div>
+
+            <div class="board__post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6</span>
+               <span class="info info-views">3</span>
+            </div>
+         </a></li>
+
+
+         <li class="board-post board-post"><a href="/p12-1.html">
+            <div class="board__post__title">
+               <p>보존 기록 기술에 관한 북미 프로젝트에 관한 문의사항이 있습니다.</p>
+            </div>
+
+            <div class="board__post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6</span>
+               <span class="info info-views">3</span>
+            </div>
+         </a></li>
+
+         <li class="board-post board-post re"><a href="/p12-1.html">
+            <div class="board__post__title">
+               <p>보존 기록 기술에 관한 북미 프로젝트에 관한 문의사항이 있습니다.</p>
+            </div>
+
+            <div class="board__post__info">
+               <span class="info info-name">김이슬</span>
+               <span class="info info-date">2019. 7. 6</span>
+               <span class="info info-views">3</span>
+            </div>
+         </a></li>
+
+      </ul>
+
+<!-- 게시판 포스트  - 더보기 버튼 start -->
+      <div class="btn-load-more">
+         <button type="button" title="더보기버튼"></button>
+      </div>
+<!-- 게시판 포스트 - 더보기 버튼 end -->
+
+<!-- 게시판 포스트  - 글쓰기 버튼 start -->
+      <div class="board__write btn-write">
+         <a href="/p12-2.html" title="글쓰기버튼">+</a>
+      </div>
+<!-- 게시판 포스트  - 글쓰기 버튼 end -->
+
+   </section>
+<!-- 게시판 포스트 end -->
+   
+   </div>
+</div>
+<!-- p12 게시판  end -->
+
+@@include('modules/footer.html')

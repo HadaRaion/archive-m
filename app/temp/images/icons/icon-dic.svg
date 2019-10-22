@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.658" height="25" viewBox="0 0 22.658 25">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-1,.cls-2{stroke-linecap:square;stroke-linejoin:round}.cls-2{fill:#fff;stroke:#000}.cls-4,.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="그룹_406" data-name="그룹 406" transform="translate(-133.365 -68)">
+        <g id="그룹_406-2" data-name="그룹 406">
+            <g id="패스_902" class="cls-1" data-name="패스 902">
+                <path d="M156 90.943h-16.093A2.869 2.869 0 0 1 137 88.115V71l8.455 1 9.094.877 1.451 1.3z" class="cls-4"/>
+                <path d="M155 89.943V74.618l-.874-.782-8.767-.846-.02-.002-7.339-.863v15.99c0 1.008.855 1.828 1.907 1.828H155m1 1h-16.093c-1.605 0-2.907-1.266-2.907-2.828V71l8.455.995 9.094.877L156 74.171v16.772z" class="cls-5"/>
+            </g>
+            <path id="패스_903" d="M155.523 74.03h-15.111a2.758 2.758 0 0 1-2.9-2.591 2.758 2.758 0 0 1 2.9-2.591h15.111" class="cls-2" data-name="패스 903"/>
+            <path id="패스_904" d="M141.054 85V74.113h5.862V85l-2.931-2.094z" data-name="패스 904"/>
+            <path id="선_98" d="M0 0h15.586" class="cls-2" data-name="선 98" transform="translate(139.914 71.429)"/>
+        </g>
+        <path id="사각형_127" d="M0 0h22.636v25H0z" class="cls-3" data-name="사각형 127" transform="translate(133.364 68)"/>
+    </g>
+</svg>

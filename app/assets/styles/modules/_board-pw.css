@@ -1,0 +1,53 @@
+.board-pw {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   z-index: 1000;
+   background-color: #ececec;
+   padding: 0;
+   margin: 0;
+
+   .btn-close {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+   }
+
+   form{
+      margin-top: 60%;
+   }
+
+   legend {
+      font-size: 14px;
+      text-align: center;
+   }
+
+   label {
+      display: none;
+   }
+
+   input {
+      display: block;
+      outline: none;
+      width: 212px;
+      height: 48px;
+      line-height: 48px;
+      border: none;
+      background: #fff;
+      padding-left: 10px;
+      margin: 73px auto 0;
+      font-size: 15px;
+
+      &::placeholder {
+         color: #ccc;  
+         line-height: 48px;
+      } 
+   }
+
+   button {
+      display: block;
+      margin: 29px auto 0;
+   }
+
+}

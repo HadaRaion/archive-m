@@ -1,0 +1,53 @@
+.doc__slider {
+   margin-top: 10px;
+
+   &__slide {
+      width: 100%;
+      padding: 92px 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+   }
+
+   .slick-dots {
+      z-index: 10;
+      position: absolute;
+      left: 0;
+      right: 0;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      bottom: -20px;
+    }
+   
+   .slick-dots {
+      
+      li {
+        list-style: none;
+        display: inline;
+      }
+    
+      li button {
+        display: inline-block;
+        text-indent: -9999px;
+        font-size: 0;
+        line-height: 0;
+        width: 5px;
+        height: 5px;
+        background-color:#ccc;
+
+        border-radius: 50%;
+        border: none;
+        margin: 0 4px;
+        padding: 0;
+        outline: none;
+        transition: background-color .3s ease-out;
+        cursor: pointer;
+      }
+    
+      .slick-active button {
+        background-color: $boxBlue;
+      }
+    
+   }
+}

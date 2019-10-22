@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="그룹_410" width="30.146" height="33.294" data-name="그룹 410" viewBox="0 0 30.146 33.294">
+    <defs>
+        <style>
+            .cls-1,.cls-3,.cls-4{fill:#fff}.cls-1,.cls-4{stroke-linecap:round;stroke-linejoin:round}.cls-2,.cls-7{fill:#55aaec}.cls-4{stroke:#000}.cls-5{fill:none}.cls-6,.cls-7{stroke:none}
+        </style>
+    </defs>
+    <g id="그룹_411" data-name="그룹 411" transform="translate(1.073 1.834)">
+        <g id="패스_907" class="cls-1" data-name="패스 907">
+            <path d="M269.444 93.615h-12.531l-7.777-11.284V69.877h14.22l6.088 5.535v18.203z" class="cls-6" transform="translate(-240.872 -69.377)"/>
+            <path d="M268.944 93.115V75.633l-5.782-5.256h-13.526v11.799l7.54 10.939h11.768m1 1H256.65l-8.014-11.628v-13.11h14.913l6.395 5.814v18.924z" class="cls-7" transform="translate(-240.872 -69.377)"/>
+        </g>
+        <path id="패스_908" d="M258.667 69.564v6.175h7.049z" class="cls-2" data-name="패스 908" transform="translate(-236.643 -69.564)"/>
+        <path id="사각형_130" d="M0 0h10.654v14.65H0z" class="cls-3" data-name="사각형 130" transform="translate(6.315 10.152)"/>
+        <g id="그룹_410-2" data-name="그룹 410" transform="translate(0 10.013)">
+            <path id="사각형_131" d="M0 0h7.914v13.585a2.244 2.244 0 0 1-2.244 2.244H2.244A2.244 2.244 0 0 1 0 13.585V0z" class="cls-2" data-name="사각형 131" transform="rotate(40.38 .414 15.672)"/>
+            <path id="패스_909" d="M257.5 83.981l-6.029-5.127 6.86-1.958z" class="cls-2" data-name="패스 909" transform="translate(-239.932 -76.896)"/>
+        </g>
+    </g>
+    <path id="사각형_132" d="M0 0h30.145v33.294H0z" class="cls-5" data-name="사각형 132"/>
+</svg>

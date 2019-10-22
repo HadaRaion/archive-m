@@ -1,0 +1,85 @@
+.main-nav {
+   width: 100%;
+   height: 100%;
+   padding: 47px 0;
+   position: fixed;
+   top: 0;
+   overflow: scroll;
+   background: rgba(255,255,255, 1);
+   z-index: 200;
+   transform: translateX(100%);
+   transition: all .5s ease;
+
+   &.active {
+      transform: translateX(0);
+   }
+   
+   &__container {
+
+   }
+
+   &__sign-in {
+      margin-bottom: 40px;
+   }
+
+   &__links {
+      margin-top: 49px;
+
+      li {
+         border-top: solid 1px #e3e3e3;
+         padding: 10px 0 12px;
+      }
+
+      li:last-child {
+         border-bottom: solid 1px #e3e3e3;
+      }
+
+      .link-icon{
+         display: block;
+         width: 30px;
+         height: 33px;
+         float: left;
+         background-repeat: no-repeat;
+         background-size: contain;
+      }
+      .link-title{
+         display: block;
+         width: 56px;
+         height: 33px;
+         float: left;
+         margin-left: 10px;
+         line-height: 33px;
+         font-size: 11px;
+         font-weight: bold;
+         letter-spacing: -0.33px;
+         color: #55aaec;
+      }
+      .link-caption{
+         display: block;
+         height: 33px;
+         line-height: 33px;
+         font-size: 11px;
+         letter-spacing: -0.44px;
+         color: #a7a7a7;
+      }
+
+      &__link-dic .link-icon {
+         background-image: url(../images/icons/icon-dic-blue.svg);
+      }
+      &__link-timeline .link-icon {
+         background-image: url(../images/icons/icon-timeline-blue.svg);
+      }
+      &__link-series .link-icon {
+         background-image: url(../images/icons/icon-series-blue.svg);
+      }
+   }
+
+   &__about {
+      margin-right: 10px;
+   }
+
+   &__links-2 {
+      margin-top: 48px;
+   }
+
+}

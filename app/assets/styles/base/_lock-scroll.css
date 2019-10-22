@@ -1,0 +1,11 @@
+body.lock-scroll {
+   overflow: hidden;
+   height: 100%;
+}
+
+html.lock-scroll {
+   overflow: hidden;
+}
+
+
+
